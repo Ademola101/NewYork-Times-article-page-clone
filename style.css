@@ -45,16 +45,36 @@ article{
 .inf_left{margin-right: 15vw;
 
 }
+.inf_center{
+    font-size: larger
+}
+
 .copy{
     margin-left: 100px;
     margin-right: 10px;
 }
 .rest{
     margin-right: 9px;
+    text-decoration: none; color: rgb(129, 137, 138);
 }
 .icons{
     margin-bottom: 20px;
 }
 .ispace{
     margin-left: 10px;
+}
+.svg_slider{
+    margin-left: 10px; margin-right: 10px; 
+}
+.svg_search{
+    margin-left: 0px; margin-right: 20px; 
+}
+h1{
+    font-family: "Lobster";
+}
+.space{
+    text-decoration: none; color: black; position: fixed;
+}
+.Newyork{
+    text-decoration: none; color: black; font-family: 'Cookie'; 
 }
