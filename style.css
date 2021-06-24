@@ -37,10 +37,10 @@ article{
     display: flex;
     }
 
-.inf_right{margin-right: 15vw;
+.inf_right{margin-right: 10vw;
 
 }
-.inf_left{margin-right: 15vw;
+.inf_left{margin-right: 5vw;
 
 }
 .inf_center{
@@ -60,8 +60,7 @@ article{
 .icons{
     display: inline;
     margin-right: 15px;
-    margin-bottom: 30px;
-}
+    }
 .ispace{
     margin-left: 10px;
 }
@@ -80,3 +79,14 @@ h1{
 .Newyork{
     text-decoration: none; color: black; font-family: 'Cookie'; 
 position: fixed;}
+.image_center{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image_items{
+    width: 20vw;
+}
+.image_text{width: 20vw; font-size: 70%;
+}
+
+}
