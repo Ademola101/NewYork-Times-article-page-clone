@@ -27,7 +27,7 @@ article{
     font-size: larger;
     letter-spacing:normal;
     font-family: "Benne";
-    line-height: 150%;
+    line-height: 1.6;
 }
 .login{
     text-decoration: none; color:white;background-color: rgb(51, 4, 88);
