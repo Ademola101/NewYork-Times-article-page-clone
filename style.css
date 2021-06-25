@@ -1,7 +1,8 @@
 .header_container{
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
-
 }
 .container{
     display: flex;
@@ -30,8 +31,7 @@ article{
 }
 .login{
     text-decoration: none; 
-    color:white;background-color: gray;
-    
+    color:white;background-color: gray;position: relative;right: 30px;
 }
 .inflation{
     display: flex;
@@ -72,13 +72,14 @@ article{
 }
 h1{
     font-family: "Lobster";
+    margin-top: 5%;
 }
 .space{
-    text-decoration: none; color: black; position: fixed;
+    text-decoration: none; color: black;
 }
 .Newyork{
     text-decoration: none; color: black; font-family: 'Cookie'; 
-position: fixed;}
+}
 .image_center{
     display: flex;
     flex-wrap: wrap;
@@ -122,3 +123,4 @@ margin-right: 100px;
 .ny_home{
     text-decoration: none;
 }
+.fixed{
