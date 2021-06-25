@@ -1,12 +1,13 @@
 .header_container {
-  display: flex; 
+  display: flex;
   position: fixed;
   width: 100%;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 .container {
-    display: flex;
-    justify-content:
-    space-between; }
+  display: flex;
+  justify-content:vspace-between;
+}
 img {
     margin-top: 20px; max-width: 100%; max-height: 100%; }
 .right { margin-right: 20vw; }
