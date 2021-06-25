@@ -1,162 +1,88 @@
-.header_container{
-    display: flex;
-    position: fixed;
-    width: 100%;
-    justify-content: space-between;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-}
-img{ margin-top: 20px;
-    max-width: 100%;
-    max-height: 100%;
-}
-.right{
-    margin-right: 20vw;
-}
-.left{
-    margin-left: 20vw;
-
-}
-
-.textimage{
-    color: darkgrey;
-}
-article{
-    font-size: larger;
-    letter-spacing:normal;
-    font-family: "Benne";
-    line-height: 1.6;
-}
-.login{
-    text-decoration: none; 
-    color:white;background-color: gray;position: relative;right: 30px;
-}
-.inflation{
-    display: flex;
+.header_container {  display: flex;  position: fixed;  width: 100%;  justify-content: space-between;  }  
+.container {  display: flex;  justify-content: space-between;  }
+img {  margin-top: 20px;  max-width: 100%;  max-height: 100%;  }
+.right {  margin-right: 20vw; }
+.left {  margin-left: 20vw;}
+.textimage {  color: darkgrey;}
+article {  font-size: larger;  letter-spacing:normal;  font-family: "Benne";  line-height: 1.6;}
+.login {  text-decoration: none;  color:white;  background-color: gray;  position: relative;  right: 30px;}
+.inflation {  display: flex;}
+.inf_right {  margin-right: 10vw;}
+.inf_left {  margin-right: 5vw;}
+.inf_center {  font-size: larger}
+.copy {  margin-left: 100px; margin-right: 10px;
+    text-decoration: none; color: rgb(129, 137, 138);}
+.rest {  margin-right: 9px;
+    text-decoration: none; color: rgb(129, 137, 138);}
+.icons {  display: inline; margin-right: 15px;
     }
-
-.inf_right{margin-right: 10vw;
-
+.ispace {  margin-left: 10px;
 }
-.inf_left{margin-right: 5vw;
-
+.svg_slider {  margin-left: 10px; margin-right: 10px; 
 }
-.inf_center{
-    font-size: larger
+.svg_search  {  margin-left: 0px; margin-right: 20px; 
 }
-
-.copy{
-    margin-left: 100px;
-    margin-right: 10px;
-    text-decoration: none; color: rgb(129, 137, 138);
-
+h1 {  font-family: "Lobster";margin-top: 5%;
 }
-.rest{
-    margin-right: 9px;
-    text-decoration: none; color: rgb(129, 137, 138);
+.space {  text-decoration: none; color: black;
 }
-.icons{
-    display: inline;
-    margin-right: 15px;
-    }
-.ispace{
-    margin-left: 10px;
+.Newyork {  text-decoration: none; color: black; font-family: 'Cookie'; 
 }
-.svg_slider{
-    margin-left: 10px; margin-right: 10px; 
-}
-.svg_search{
-    margin-left: 0px; margin-right: 20px; 
-}
-h1{
-    font-family: "Lobster";
-    margin-top: 5%;
-    
-}
-.space{
-    text-decoration: none; color: black;
-}
-.Newyork{
-    text-decoration: none; color: black; font-family: 'Cookie'; 
-}
-.image_center{
-    display: flex;
+.image_center {  display: flex;
     flex-wrap: wrap;
 }
-.image_items{
-    width: 20vw;
+.image_items {  width: 20vw;
 }
-.image_text{width: 20vw; font-size: 70%;
+.image_text {  width: 20vw; font-size: 70%;
 }
-
-.ads{
-    display: flex;
+.ads {  display: flex;
 }
-.ads_new{
-    font-family: 'Cookie';  
+.ads_new {  font-family: 'Cookie';  
     margin-left: 20%;  
     text-decoration: none; color: black;
     margin-top: 3%;
 }
-.ad_home{ margin-top: 3%;
+.ad_home {  margin-top: 3%;
     margin-left: 600px;
 }
-.sub_footer{
-   display: flex;
+.sub_footer {  display: flex;
    margin-left: 15vw; 
 }
-.sub_link{
-    text-decoration: none;
+.sub_link {  text-decoration: none;
     display: block;
     color: gray;
     margin-bottom: 10px;
 }
-.sub_link_first{
-    text-decoration: none;
+.sub_link_first  {  text-decoration: none;
     
     margin-bottom: 20px;
     margin-top: 40px;
 }
-.ind_link{
-margin-right: 100px;
+.ind_link {  margin-right: 100px;
 }
-.ny_home{
-    text-decoration: none; color:gray;
+.ny_home {  text-decoration: none; color:gray;
 }
-.ads_container{
-    display: flex; margin-top: 5%;
-
+.ads_container {  display: flex; margin-top: 5%;
 }
-.astro{
-   border-top: solid black 1px; 
+.astro {  border-top: solid black 1px; 
 width: 80vw;}
-.astro_popular{
-    width: 30vw;
+.astro_popular {  width: 30vw;
 }
-.astro_link{
-    text-decoration: none;
+.astro_link {  text-decoration: none;
     display: block;
     color:black;
     margin-top: 15px;
     margin-bottom: 15px;
     font-weight:bolder;
-   
 }
-
-.biden{
-    display: flex;
+.biden {  display: flex;
 flex-wrap: wrap;
 }
-.biden_img{ 
-    height: 30%;
+.biden_img {  height: 30%;
     width: 30%;
     margin-right:1%;
 }
-.biden_link{
-
-text-decoration: none;
+.biden_link {  text-decoration: none;
     color:black;
     font-weight:bolder;
    }
