@@ -7,7 +7,7 @@
 
 .container {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 img {
@@ -28,10 +28,10 @@ img {
   color: darkgrey;
 }
 
-article { 
-  font-size: larger; 
-  letter-spacing:normal;
-  font-family: "Benne";
+article {
+  font-size: larger;
+  letter-spacing: normal;
+  font-family: Benne;
   line-height: 1.6;
 }
 
@@ -87,12 +87,12 @@ article {
 }
 
 .svg_search {
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: 20px;
 }
 
 h1 {
-  font-family: "Lobster";
+  font-family: Lobster;
   margin-top: 5%;
 }
 
@@ -104,7 +104,7 @@ h1 {
 .Newyork {
   text-decoration: none;
   color: black;
-  font-family: 'Cookie';
+  font-family: Cookie;
 }
 
 .image_center {
@@ -117,7 +117,7 @@ h1 {
 }
 
 .image_text {
-  width: 20vw; 
+  width: 20vw;
   font-size: 70%;
 }
 
@@ -126,7 +126,7 @@ h1 {
 }
 
 .ads_new {
-  font-family: 'Cookie';
+  font-family: Cookie;
   margin-left: 20%;
   text-decoration: none;
   color: black;
@@ -144,7 +144,7 @@ h1 {
 }
 
 .sub_link {
-  text-decoration: none; 
+  text-decoration: none;
   display: block;
   color: gray;
   margin-bottom: 10px;
@@ -162,7 +162,7 @@ h1 {
 
 .ny_home {
   text-decoration: none;
-  color:gray;
+  color: gray;
 }
 
 .ads_container {
@@ -182,10 +182,10 @@ h1 {
 .astro_link {
   text-decoration: none;
   display: block;
-  color:black;
+  color: black;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .biden {
@@ -196,11 +196,11 @@ h1 {
 .biden_img {
   height: 30%;
   width: 30%;
-  margin-right:1%;
+  margin-right: 1%;
 }
 
 .biden_link {
   text-decoration: none;
-  color:black;
-  font-weight:bolder;
+  color: black;
+  font-weight: bolder;
 }
