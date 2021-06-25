@@ -73,6 +73,7 @@ article{
 h1{
     font-family: "Lobster";
     margin-top: 5%;
+    
 }
 .space{
     text-decoration: none; color: black;
@@ -97,8 +98,9 @@ h1{
     font-family: 'Cookie';  
     margin-left: 20%;  
     text-decoration: none; color: black;
+    margin-top: 3%;
 }
-.ad_home{
+.ad_home{ margin-top: 3%;
     margin-left: 600px;
 }
 .sub_footer{
@@ -123,4 +125,38 @@ margin-right: 100px;
 .ny_home{
     text-decoration: none;
 }
-.fixed{
+.ads_container{
+    display: flex; margin-top: 5%;
+
+}
+.astro{
+   border-top: solid black 1px; 
+width: 80vw;}
+.astro_popular{
+    width: 30vw;
+}
+.astro_link{
+    text-decoration: none;
+    display: block;
+    color:black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight:bolder;
+   
+}
+
+.biden{
+    display: flex;
+flex-wrap: wrap;
+}
+.biden_img{ 
+    height: 30%;
+    width: 30%;
+    margin-right:1%;
+}
+.biden_link{
+
+text-decoration: none;
+    color:black;
+    font-weight:bolder;
+   }
