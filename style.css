@@ -89,4 +89,36 @@ position: fixed;}
 .image_text{width: 20vw; font-size: 70%;
 }
 
+.ads{
+    display: flex;
+}
+.ads_new{
+    font-family: 'Cookie';  
+    margin-left: 20%;  
+    text-decoration: none; color: black;
+}
+.ad_home{
+    margin-left: 600px;
+}
+.sub_footer{
+   display: flex;
+   margin-left: 15vw; 
+}
+.sub_link{
+    text-decoration: none;
+    display: block;
+    color: gray;
+    margin-bottom: 10px;
+}
+.sub_link_first{
+    text-decoration: none;
+    
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.ind_link{
+margin-right: 100px;
+}
+.ny_home{
+    text-decoration: none;
 }
