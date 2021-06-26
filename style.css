@@ -31,13 +31,13 @@ img {
 article {
   font-size: larger;
   letter-spacing: normal;
-  font-family: Benne;
+  font-family: Benne, sans-serif;
   line-height: 1.6;
 }
 
 .login {
   text-decoration: none;
-  color: gray;
+  color: black;
   background-color: gray;
   position: relative;
   right: 30px;
@@ -92,7 +92,7 @@ article {
 }
 
 h1 {
-  font-family: Lobster;
+  font-family: Lobster, sans-serif;
   margin-top: 5%;
 }
 
@@ -104,7 +104,7 @@ h1 {
 .Newyork {
   text-decoration: none;
   color: black;
-  font-family: Cookie;
+  font-family: Cookie, georgia, serif;
 }
 
 .image_center {
@@ -123,10 +123,10 @@ h1 {
 
 .ads {
   display: flex;
-}
+ }
 
 .ads_new {
-  font-family: Cookie;
+  font-family: Cookie, sans-serif;
   margin-left: 20%;
   text-decoration: none;
   color: black;
