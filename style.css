@@ -204,3 +204,24 @@ h1 {
   color: black;
   font-weight: bolder;
 }
+
+.bold {
+    font-weight: bolder;
+}
+  
+.email {
+  margin-bottom: 20px;
+}
+  
+.radio_container {
+  margin-top: 2%;
+}
+  
+.radio_item {
+  position: relative;
+  left: 5%;
+  margin-top: 1%;
+}
+form{
+    margin-top: 2%;
+}

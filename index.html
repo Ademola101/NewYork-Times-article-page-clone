@@ -238,11 +238,57 @@ Dr. Kovac has spent his career trying to read the secrets of these waves. He is 
     “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
     
     </article>
+    <form action="#">
+        <label for="name">
+
+        <div class="bold">
+            Name:
+        </div>
+    </label>
+        <input class="username" type="text" id="name" required maxlength="20" placeholder="Your name">
+        <br>
+        <br>
+        <label for="email">
+            <div class="bold">
+            Email:
+        </div>
+    </label>
+        <input class="email" type="email" id="email" name="email_form" required maxlength="20"><br>
+        <label for="comment" class="comment">  <div class="bold">Comment: </div></label>
+        <textarea placeholder="Type your comment here.." 
+        name="comment_form" required id="comment" cols="30" 
+        rows="10" maxlength="250" class="comment_input"></textarea>
+        <br>
+          <div class="radio_container"> What is your overall opinion about this article? 
+        <div class="radio_item">
+        <input type="radio" id="positive" name="remarks" value="positive">
+        <label for="positive">Positive</label> <br>
+        <input type="radio" id="negative" name="remarks" value="negative">
+        <label for="negative">
+            Negative
+        </label>
         
+        <br>
+        <input type="radio" id="neutral" name="remarks" value="neutral">
+        <label for="neutral">
+            Neutral
+        </label>
+        
+    </div></div>
+        <br>
+<label for="newsletter">
+    I want to suscribe to the newsletter
+</label>
+<input type= "checkbox" id="newsletter" name="newsletter" value="suscribed"> <br>
+
+        <button type="submit"> Send </button>
+
+         </form>  
       </div>
       <div class="left"></div>
   
           </div>
+          
   <div class="ads_container">
     <div class="astro">
 <p> <strong> More in Space and Astronomy</strong></p>
