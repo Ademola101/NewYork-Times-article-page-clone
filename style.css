@@ -222,6 +222,21 @@ h1 {
   left: 5%;
   margin-top: 1%;
 }
-form{
-    margin-top: 2%;
+
+form {
+  margin-top: 2%;
+  justify-self: center;
+  position: relative;
+  left: 20%;
+}
+
+button {
+  background-color: gray;
+  margin-top: 2%;
+}
+
+.comment_text {
+  font-family: Cookie, georgia, serif;
+  font-family: Benne, sans-serif;
+  font-weight: bolder;
 }
